@@ -12,10 +12,22 @@
      `C:\Users\<yourname>\AppData\Roaming\Code\User\prompts`（或将项目作为工作区并保持 `.github/skills/`）。
 3. 重新启动 VS Code 或重新加载窗口，技能将在提示/命令中可用。
 
-## 使用建议
-- 输出为草稿，请由有资质的工程师审核并补充监测数据与图表。
-
 ## 许可
 本仓库采用 MIT 许可证（免费、允许商业使用）。
+
+## English (Quick Start)
+This repository contains a VS Code Copilot skill to help draft Environmental Impact Assessment (EIA) documents: outlines, chapter drafts, tables and recommendations.
+
+Quick start:
+1. Clone: git clone https://github.com/spn2026/huanping-ep-skill.git
+2. In VS Code, copy `.github/skills/环评文件智能编制技能.SKILL.md` and `环评文件智能编制技能.prompt.md` into your user prompts folder:
+   `C:\Users\\<yourname>\\AppData\\Roaming\\Code\\User\\prompts` or keep the files under `.github/skills/` in workspace.
+3. Reload VS Code. Use the prompt/skill commands (Chinese or English) to generate drafts.
+
+Notes:
+- Outputs are drafting aids and must be reviewed by qualified engineers.
+
+## Release
+See RELEASE.md for version and changelog.
 
 Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
